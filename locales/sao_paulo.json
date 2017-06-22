@@ -1,243 +1,138 @@
-{
-  "version":"2.0.10",
-  "replacements":[
-    {
-      "repA":"Sponge Bob",
-      "repB":"Bob Esponga",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Huey",
-      "repB":"Huguinho",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Dewey",
-      "repB":"Zezinho",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Louie",
-      "repB":"Luisinho",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Boris",
-      "repB":"Mathieu",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Paillard",
-      "repB":"Le Roux",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Sebastien",
-      "repB":"Roberto",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Saunier",
-      "repB":"Barros",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"seb",
-      "repB":"mat",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Peter",
-      "repB":"STUDENT1",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Mary",
-      "repB":"STUDENT2",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Georges",
-      "repB":"STUDENT3",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Emma",
-      "repB":"STUDENT4",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"La Tour d\\'Argent",
-      "repB":"Figueira Rubaiyat",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"La Tour d'Argent",
-      "repB":"Figueira Rubaiyat",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"15 Quai de la Tournelle, 75005 Paris",
-      "repB":"Rua Haddock Lobo, 1738 - São Paulo",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"14 Quai de la Tournelle, 75005 Paris",
-      "repB":"Rua Haddock Lobo, 1738 - São Paulo",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"14 Quai [...]",
-      "repB":"Rua Haddock [...]",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"%tour%",
-      "repB":"%gueir%",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Chez Gladines",
-      "repB":"Paris 6",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"tour_d_argent",
-      "repB":"figueira_rubaiyat",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"chez_gladines",
-      "repB":"paris_6",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"seb@lewagon.org",
-      "repB":"roberto@lewagon.org",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"New restaurant",
-      "repB":"Figueira Rubaiyat",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"\"address\": \"Paris\"",
-      "repB":"\"address\": \"Sao Paulo\"",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"John Doe",
-      "repB":"Fulano Silva",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"ssaunier",
-      "repB":"robertobarros",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"16 Villa Gaudelet, Paris",
-      "repB":"R. Mourato Coelho, 1404 - Pinheiros, São Paulo",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"48.8648482",
-      "repB":"-23.557631",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"2.3798534",
-      "repB":"-46.691812",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Le Dindon en Laisse",
-      "repB":"Papila",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Neuf et Voisins",
-      "repB":"Paladar da Vila",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"18 Rue Beautreillis, 75004 Paris, France",
-      "repB":"R. Mourato Coelho, 1461 - Pinheiros, São Paulo",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    },
-    {
-      "repA":"Van Arteveldestraat 1, 1000 Brussels, Belgium",
-      "repB":"R. Fradique Coutinho, 1332 - Pinheiros, São Paulo",
-      "type":"Simple",
-      "case":"Maintain",
-      "active":true
-    }
-  ]
-}
+[
+  {
+    "match":"Sponge Bob",
+    "replacement":"Bob Esponga"
+  },
+  {
+    "match":"Huey",
+    "replacement":"Huguinho"
+  },
+  {
+    "match":"Dewey",
+    "replacement":"Zezinho"
+  },
+  {
+    "match":"Louie",
+    "replacement":"Luisinho"
+  },
+  {
+    "match":"Boris",
+    "replacement":"Mathieu"
+  },
+  {
+    "match":"Paillard",
+    "replacement":"Le Roux"
+  },
+  {
+    "match":"Sebastien",
+    "replacement":"Roberto"
+  },
+  {
+    "match":"Saunier",
+    "replacement":"Barros"
+  },
+  {
+    "match":"seb",
+    "replacement":"mat"
+  },
+  {
+    "match":"Peter",
+    "replacement":"STUDENT1"
+  },
+  {
+    "match":"Mary",
+    "replacement":"STUDENT2"
+  },
+  {
+    "match":"Georges",
+    "replacement":"STUDENT3"
+  },
+  {
+    "match":"Emma",
+    "replacement":"STUDENT4"
+  },
+  {
+    "match":"La Tour d\\'Argent",
+    "replacement":"Figueira Rubaiyat"
+  },
+  {
+    "match":"La Tour d'Argent",
+    "replacement":"Figueira Rubaiyat"
+  },
+  {
+    "match":"15 Quai de la Tournelle, 75005 Paris",
+    "replacement":"Rua Haddock Lobo, 1738 - São Paulo"
+  },
+  {
+    "match":"14 Quai de la Tournelle, 75005 Paris",
+    "replacement":"Rua Haddock Lobo, 1738 - São Paulo"
+  },
+  {
+    "match":"14 Quai [...]",
+    "replacement":"Rua Haddock [...]"
+  },
+  {
+    "match":"%tour%",
+    "replacement":"%gueir%"
+  },
+  {
+    "match":"Chez Gladines",
+    "replacement":"Paris 6"
+  },
+  {
+    "match":"tour_d_argent",
+    "replacement":"figueira_rubaiyat"
+  },
+  {
+    "match":"chez_gladines",
+    "replacement":"paris_6"
+  },
+  {
+    "match":"seb@lewagon.org",
+    "replacement":"roberto@lewagon.org"
+  },
+  {
+    "match":"New restaurant",
+    "replacement":"Figueira Rubaiyat"
+  },
+  {
+    "match":"\"address\": \"Paris\"",
+    "replacement":"\"address\": \"Sao Paulo\""
+  },
+  {
+    "match":"John Doe",
+    "replacement":"Fulano Silva"
+  },
+  {
+    "match":"ssaunier",
+    "replacement":"robertobarros"
+  },
+  {
+    "match":"16 Villa Gaudelet, Paris",
+    "replacement":"R. Mourato Coelho, 1404 - Pinheiros, São Paulo"
+  },
+  {
+    "match":"48.8648482",
+    "replacement":"-23.557631"
+  },
+  {
+    "match":"2.3798534",
+    "replacement":"-46.691812"
+  },
+  {
+    "match":"Le Dindon en Laisse",
+    "replacement":"Papila"
+  },
+  {
+    "match":"Neuf et Voisins",
+    "replacement":"Paladar da Vila"
+  },
+  {
+    "match":"18 Rue Beautreillis, 75004 Paris, France",
+    "replacement":"R. Mourato Coelho, 1461 - Pinheiros, São Paulo"
+  },
+  {
+    "match":"Van Arteveldestraat 1, 1000 Brussels, Belgium",
+    "replacement":"R. Fradique Coutinho, 1332 - Pinheiros, São Paulo"
+  }
+]
