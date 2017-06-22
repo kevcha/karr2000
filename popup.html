@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Test Extension Options</title>
+  </head>
+
+  <body>
+  <input type="text" id="title" value="initial">
+    <textarea id="data" cols="100" rows="15">
+{
+  "students": [
+    { "first_name": "Sébastien", "last_name": "Saunier" },
+    { "first_name": "Boris", "last_name": "Paillard" }
+  ],
+  "restaurants": [
+    { "name": "La tour d'Argent", "address": "Paris" },
+    { "name": "Foo", "address": "Bar" }
+  ]
+}
+    </textarea>
+
+    <div id="status"></div>
+    <button id="save">Save</button>
+
+    <script src="options.js"></script>
+  </body>
+</html>
