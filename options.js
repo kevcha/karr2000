@@ -12,7 +12,7 @@ function saveOptions() {
 
 function fillTextarea() {
   chrome.storage.sync.get('karrData', function(data) {
-    if (data != undefined) {
+    if (data.karrData != undefined) {
       document.getElementById('data').value = JSON.stringify(data.karrData, null, '\t');
     }
   });
