@@ -4,7 +4,7 @@
   "description": "Brings some customisation to karr lectures",
   "version": "1.0",
   "browser_action": {
-    "default_icon": "icon.svg",
+    "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
   "permissions": [
