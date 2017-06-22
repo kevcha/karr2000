@@ -1,13 +1,8 @@
-console.log('test');
-console.log(localStorage.getItem('test'));
-
-// StorageArea.get('value', function(data) {
-//   console.log(data)
-// });
-
 $(function() {
+  // Get custom data from local storage
   chrome.storage.sync.get('karrData', function(data) {
-  // Notify that we saved.
-    console.log(data);
+    if (data != undefined) {
+      // TODO : replace matching elements in DOM
+    }
   });
 });
