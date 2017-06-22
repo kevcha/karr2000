@@ -1,138 +1,138 @@
 [
   {
     "match":"Sponge Bob",
-    "replacement":"Bob Esponga"
+    "substitute":"Bob Esponga"
   },
   {
     "match":"Huey",
-    "replacement":"Huguinho"
+    "substitute":"Huguinho"
   },
   {
     "match":"Dewey",
-    "replacement":"Zezinho"
+    "substitute":"Zezinho"
   },
   {
     "match":"Louie",
-    "replacement":"Luisinho"
+    "substitute":"Luisinho"
   },
   {
     "match":"Boris",
-    "replacement":"Mathieu"
+    "substitute":"Mathieu"
   },
   {
     "match":"Paillard",
-    "replacement":"Le Roux"
+    "substitute":"Le Roux"
   },
   {
     "match":"Sebastien",
-    "replacement":"Roberto"
+    "substitute":"Roberto"
   },
   {
     "match":"Saunier",
-    "replacement":"Barros"
+    "substitute":"Barros"
   },
   {
     "match":"seb",
-    "replacement":"mat"
+    "substitute":"mat"
   },
   {
     "match":"Peter",
-    "replacement":"STUDENT1"
+    "substitute":"STUDENT1"
   },
   {
     "match":"Mary",
-    "replacement":"STUDENT2"
+    "substitute":"STUDENT2"
   },
   {
     "match":"Georges",
-    "replacement":"STUDENT3"
+    "substitute":"STUDENT3"
   },
   {
     "match":"Emma",
-    "replacement":"STUDENT4"
+    "substitute":"STUDENT4"
   },
   {
     "match":"La Tour d\\'Argent",
-    "replacement":"Figueira Rubaiyat"
+    "substitute":"Figueira Rubaiyat"
   },
   {
     "match":"La Tour d'Argent",
-    "replacement":"Figueira Rubaiyat"
+    "substitute":"Figueira Rubaiyat"
   },
   {
     "match":"15 Quai de la Tournelle, 75005 Paris",
-    "replacement":"Rua Haddock Lobo, 1738 - São Paulo"
+    "substitute":"Rua Haddock Lobo, 1738 - São Paulo"
   },
   {
     "match":"14 Quai de la Tournelle, 75005 Paris",
-    "replacement":"Rua Haddock Lobo, 1738 - São Paulo"
+    "substitute":"Rua Haddock Lobo, 1738 - São Paulo"
   },
   {
     "match":"14 Quai [...]",
-    "replacement":"Rua Haddock [...]"
+    "substitute":"Rua Haddock [...]"
   },
   {
     "match":"%tour%",
-    "replacement":"%gueir%"
+    "substitute":"%gueir%"
   },
   {
     "match":"Chez Gladines",
-    "replacement":"Paris 6"
+    "substitute":"Paris 6"
   },
   {
     "match":"tour_d_argent",
-    "replacement":"figueira_rubaiyat"
+    "substitute":"figueira_rubaiyat"
   },
   {
     "match":"chez_gladines",
-    "replacement":"paris_6"
+    "substitute":"paris_6"
   },
   {
     "match":"seb@lewagon.org",
-    "replacement":"roberto@lewagon.org"
+    "substitute":"roberto@lewagon.org"
   },
   {
     "match":"New restaurant",
-    "replacement":"Figueira Rubaiyat"
+    "substitute":"Figueira Rubaiyat"
   },
   {
     "match":"\"address\": \"Paris\"",
-    "replacement":"\"address\": \"Sao Paulo\""
+    "substitute":"\"address\": \"Sao Paulo\""
   },
   {
     "match":"John Doe",
-    "replacement":"Fulano Silva"
+    "substitute":"Fulano Silva"
   },
   {
     "match":"ssaunier",
-    "replacement":"robertobarros"
+    "substitute":"robertobarros"
   },
   {
     "match":"16 Villa Gaudelet, Paris",
-    "replacement":"R. Mourato Coelho, 1404 - Pinheiros, São Paulo"
+    "substitute":"R. Mourato Coelho, 1404 - Pinheiros, São Paulo"
   },
   {
     "match":"48.8648482",
-    "replacement":"-23.557631"
+    "substitute":"-23.557631"
   },
   {
     "match":"2.3798534",
-    "replacement":"-46.691812"
+    "substitute":"-46.691812"
   },
   {
     "match":"Le Dindon en Laisse",
-    "replacement":"Papila"
+    "substitute":"Papila"
   },
   {
     "match":"Neuf et Voisins",
-    "replacement":"Paladar da Vila"
+    "substitute":"Paladar da Vila"
   },
   {
     "match":"18 Rue Beautreillis, 75004 Paris, France",
-    "replacement":"R. Mourato Coelho, 1461 - Pinheiros, São Paulo"
+    "substitute":"R. Mourato Coelho, 1461 - Pinheiros, São Paulo"
   },
   {
     "match":"Van Arteveldestraat 1, 1000 Brussels, Belgium",
-    "replacement":"R. Fradique Coutinho, 1332 - Pinheiros, São Paulo"
+    "substitute":"R. Fradique Coutinho, 1332 - Pinheiros, São Paulo"
   }
 ]
