@@ -1,14 +1,304 @@
 {
   "manifest_version": 2,
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "Karr2000",
+  "description": "Brings some customisation to karr lectures",
   "version": "1.0",
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "icon.svg",
     "default_popup": "popup.html"
   },
   "permissions": [
     "activeTab",
-    "https://ajax.googleapis.com/"
-  ]
+    "storage"
+  ],
+  "content_scripts": [{
+    "matches": ["*://karr.lewagon.org/*"],
+    "js": ["jquery-3.2.1.min.js", "karr2000.js"]
+  }]
 }
+
+// https://karr.lewagon.org/lectures/ruby/05-regexps#/3/5
+// https://karr.lewagon.org/lectures/ruby/05-regexps#/3/6
+// John Doe
+
+// https://karr.lewagon.org/lectures/ruby/06-parsing-storing-data#/3/2
+// url = 'https://api.github.com/users/ssaunier'
+
+// https://karr.lewagon.org/lectures/oop/01-object-intro#/2/2
+// name = String.new("John Lennon")  # (same as) name = "John Lennon"
+// name.split # => [ "John", "Lennon" ]
+
+// https://karr.lewagon.org/lectures/oop/02-advanced-oop#/1/8
+// some_castle = Castle.new('Tower of London', 27, 100, 480)
+// my_house = House.new('Ker Avel', 5, 10, 12)
+
+// https://karr.lewagon.org/lectures/oop/02-advanced-oop#/1/9
+// my_castle = Castle.new('Moulinsard', 24, 50, 30)
+// my_castle.butler = "George"
+// my_house = House.new('Ker Avel', 5, 10, 12)
+
+// https://karr.lewagon.org/lectures/oop/02-advanced-oop#/1/10
+// some_castle = Castle.new('Tower of London', 27, 100, 480)
+
+
+// https://karr.lewagon.org/lectures/oop/02-advanced-oop#/2/5
+// ['Medieval', 'Norman', 'Ancient']
+
+// https://karr.lewagon.org/lectures/oop/02-advanced-oop#/2/8
+// https://karr.lewagon.org/lectures/oop/02-advanced-oop#/2/9
+// when "Paris" then 9000
+// when "Brussels" then 3000
+
+// https://karr.lewagon.org/lectures/rails/google-maps-geocoder#/1
+// "Eiffel Tower" → { lat: 48.8582, lng: 2.2945 }
+
+// https://karr.lewagon.org/lectures/rails/google-maps-geocoder#/1/7
+// Flat.create(address: '16 Villa Gaudelet, Paris', name: 'Le Wagon HQ')
+// # => #<Flat:0x007fad2e720898
+// #  [...]
+// #  name: "Le Wagon HQ",
+// #  latitude: 48.8648482,
+// #  longitude: 2.3798534,
+// #  address: "16 Villa Gaudelet, Paris">
+
+// https://karr.lewagon.org/lectures/rails/google-maps-geocoder#/1/8
+// Flat.near('Tour Eiffel', 10)      # venues within 10 km of Tour Eiffel
+// Flat.near([40.71, 100.23], 20)    # venues within 10 km of a point
+
+// https://karr.lewagon.org/lectures/rails/mailing#/8/1
+// seb@lewagon.org
+
+// https://karr.lewagon.org/lectures/rails/ajax-in-rails#/1/3
+// puts 'Creating restaurants...'
+// Restaurant.create!({
+//   name: "Le Dindon en Laisse",
+//   address: "18 Rue Beautreillis, 75004 Paris, France"
+// })
+// Restaurant.create!({
+//   name: "Neuf et Voisins",
+//   address: "Van Arteveldestraat 1, 1000 Brussels, Belgium"
+// })
+// puts 'Finished!'
+
+// https://karr.lewagon.org/lectures/rails/stripe#/4
+// Teddy.create!(sku: 'original-teddy-bear', name: 'Teddy bear', category: kids, photo_url: 'http://onehdwallpaper.com/wp-content/uploads/2015/07/Teddy-Bears-HD-Images.jpg')
+// Teddy.create!(sku: 'jean-mimi', name: 'Jean-Michel - Le Wagon', category: geek, photo_url: 'https://pbs.twimg.com/media/B_AUcKeU4AE6ZcG.jpg:large')
+// Teddy.create!(sku: 'octocat',   name: 'Octocat -  GitHub',      category: geek, photo_url: 'https://cdn.shopify.com/s/files/1/0051/4802/products/mona-2_1024x1024.jpg?v=1447180277')
+// puts 'Finished!'
+
+// https://karr.lewagon.org/lectures/rails/testing#/3/10
+// # test/fixtures/products.yml
+// kudoz:
+//   name: "Kudoz"
+//   tagline: "Tinder for Jobs"
+
+// https://karr.lewagon.org/lectures/rails/testing#/4/2
+// # test/fixtures/users.yml
+// george:
+//   email: "george@abitbol.com"
+//   first_name: "George"
+//   last_name: "Abitbol"
+
+// https://karr.lewagon.org/lectures/rails/testing#/4/3
+// login_as users(:george)
+
+// https://karr.lewagon.org/lectures/rails/testing#/5/2
+// user = User.new(first_name: "john", last_name: "lennon")
+// assert_equal "John Lennon", user.full_name
+
+
+// {
+//   "sao-paulo": {
+//     "version": "2.0.10",
+//     "replacements": [
+//       {
+//         "url": "https://karr.lewagon.org/lectures/ruby/01-programming-basics",
+//         "repA": "Sponge Bob",
+//         "repB": "Bob Esponga",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/ruby/01-programming-basics",
+//         "repA": "Huey",
+//         "repB": "Huguinho",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/ruby/01-programming-basics",
+//         "repA": "Dewey",
+//         "repB": "Zezinho",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/ruby/01-programming-basics",
+//         "repA": "Louie",
+//         "repB": "Luisinho",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "repA": "Boris",
+//         "repB": "Mathieu",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "repA": "Paillard",
+//         "repB": "Le Roux",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "repA": "Sebastien",
+//         "repB": "Roberto",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "repA": "Saunier",
+//         "repB": "Barros",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/ruby/02-flow-and-array",
+//         "repA": "seb",
+//         "repB": "mat",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/ruby/04-hash-symbols",
+//         "repA": "Peter",
+//         "repB": "STUDENT1",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/ruby/04-hash-symbols",
+//         "repA": "Mary",
+//         "repB": "STUDENT2",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/ruby/04-hash-symbols",
+//         "repA": "Georges",
+//         "repB": "STUDENT3",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/ruby/04-hash-symbols",
+//         "repA": "Emma",
+//         "repB": "STUDENT4",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/ruby/04-hash-symbols",
+//         "repA": "seb@lewagon.org",
+//         "repB": "mat@lewagon.org",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//          "url": "https://karr.lewagon.org/lectures/db/03-active-record",
+//          "repA": "La Tour d\'Argent",
+//          "repB": "Figueira Rubaiyat",
+//          "type": "Simple",
+//          "case": "Maintain",
+//          "active": true
+//       },
+//       {
+//          "url": "https://karr.lewagon.org/lectures/db/03-active-record",
+//          "repA": "La Tour d'Argent",
+//          "repB": "Figueira Rubaiyat",
+//          "type": "Simple",
+//          "case": "Maintain",
+//          "active": true
+//       },
+//       {
+//          "url": "https://karr.lewagon.org/lectures/db/03-active-record",
+//          "repA": "15 Quai de la Tournelle, 75005 Paris",
+//          "repB": "Rua Haddock Lobo, 1738 - São Paulo",
+//          "type": "Simple",
+//          "case": "Maintain",
+//          "active": true
+//       },
+//       {
+//          "url": "https://karr.lewagon.org/lectures/db/03-active-record",
+//          "repA": "14 Quai de la Tournelle, 75005 Paris",
+//          "repB": "Rua Haddock Lobo, 1738 - São Paulo",
+//          "type": "Simple",
+//          "case": "Maintain",
+//          "active": true
+//       },
+//       {
+//          "url": "https://karr.lewagon.org/lectures/db/03-active-record",
+//          "repA": "14 Quai [...]",
+//          "repB": "Rua Haddock [...]",
+//          "type": "Simple",
+//          "case": "Maintain",
+//          "active": true
+//       },
+//       {
+//          "url": "https://karr.lewagon.org/lectures/db/03-active-record",
+//          "repA": "%tour%",
+//          "repB": "%gueir%",
+//          "type": "Simple",
+//          "case": "Maintain",
+//          "active": true
+//       },
+//       {
+//          "url": "https://karr.lewagon.org/lectures/db/03-active-record",
+//          "repA": "Chez Gladines",
+//          "repB": "Paris 6",
+//          "type": "Simple",
+//          "case": "Maintain",
+//          "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/rails/pundit",
+//         "repA": "seb@lewagon.org",
+//         "repB": "roberto@lewagon.org",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/rails/build-an-api",
+//         "repA": "New restaurant",
+//         "repB": "Figueira Rubaiyat",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       },
+//       {
+//         "url": "https://karr.lewagon.org/lectures/rails/build-an-api",
+//         "repA": "Paris",
+//         "repB": "Sao-Paulo",
+//         "type": "Simple",
+//         "case": "Maintain",
+//         "active": true
+//       }
+//     ]
+//   }
+// }
