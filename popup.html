@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Test Extension Options</title>
+    <title>KARR2000 - Fschhooooo... Fschhooooo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .marbot-md {
+        margin-bottom: 1em;
+      }
+
+      .logo-aligned img {
+        height: 50px;
+        margin-right: 10px;
+      }
+      .logo-aligned {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        width: 500px;
+      }
+      .logo-aligned em {
+        font-weight: 300;
+      }
+    </style>
   </head>
 
   <body>
-  <input type="text" id="title" value="initial">
-    <textarea id="toto" cols="100" rows="15">
-{
-  "students": [
-    { "first_name": "Sébastien", "last_name": "Saunier" },
-    { "first_name": "Boris", "last_name": "Paillard" }
-  ],
-  "restaurants": [
-    { "name": "La tour d'Argent", address: "Paris" },
-    { "name": "Foo", address: "Bar" }
-  ]
-}
-    </textarea>
+    <div class="container">
+      <h1 class="logo-aligned">
+        <img src="icon.svg" alt="">
+        KARR<em>2000</em>
+      </h1>
 
-    <div id="status"></div>
-    <button id="save">Save</button>
+      <div class="form-group">
+        <label for="data">JSON config:</label>
+        <span class="help-block">Paste here the content for your city and change the students names!<br>
+https://github.com/kevcha/karr2000/tree/master/locales</span>
+        <textarea id="data" cols="300" rows="15" class="form-control">
+        </textarea>
+      </div>
+
+      <div id="status"></div>
+      <input type="submit" id="save" class="btn btn-primary btn-lg marbot-md" value="Save" />
+    </div>
 
     <script src="options.js"></script>
   </body>
