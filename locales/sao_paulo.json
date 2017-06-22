@@ -1,7 +1,7 @@
 [
   {
     "match":"Sponge Bob",
-    "substitute":"Bob Esponga"
+    "substitute":"Bob Esponja"
   },
   {
     "match":"Huey",
@@ -21,7 +21,7 @@
   },
   {
     "match":"Paillard",
-    "substitute":"Le Roux"
+    "substitute":"LeRoux"
   },
   {
     "match":"Sebastien",
@@ -37,19 +37,19 @@
   },
   {
     "match":"Peter",
-    "substitute":"STUDENT1"
+    "substitute":"Fulano"
   },
   {
     "match":"Mary",
-    "substitute":"STUDENT2"
+    "substitute":"Beltrano"
   },
   {
     "match":"Georges",
-    "substitute":"STUDENT3"
+    "substitute":"Sicrano"
   },
   {
     "match":"Emma",
-    "substitute":"STUDENT4"
+    "substitute":"Belano"
   },
   {
     "match":"La Tour d\\'Argent",
